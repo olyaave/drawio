@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-01-07T14:40:30.509Z" agent="5.0 (X11)" version="14.1.8" etag="kdxx4byKjv5ucCHxFb8P" type="github"><diagram id="yGuz_JSgkTld-_o9Q_ZN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-07T15:35:24.845Z" agent="5.0 (X11)" etag="eELVIy0BeDfSl6jBphNB" version="14.1.8" type="github">
+  <diagram id="yGuz_JSgkTld-_o9Q_ZN" name="Page-1">
+    <mxGraphModel dx="1422" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WlESTi3X5ESpJLaA8oOM-2" target="WlESTi3X5ESpJLaA8oOM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-2" value="Появление нового сообщения с заказом в чате" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="150" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-3" value="Обновление ботом данных в сообщении, добавление ссылки на телеграф с рейтингом заказа&amp;nbsp; " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="695" y="230" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-4" value="Добавление сделки в АМОСРМ с указанием номера телефона в соответствующей графе" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="705" y="320" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-9" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WlESTi3X5ESpJLaA8oOM-5" target="WlESTi3X5ESpJLaA8oOM-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-10" value="Есть телефон в сообщении" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="WlESTi3X5ESpJLaA8oOM-9">
+          <mxGeometry x="-0.0829" y="-1" relative="1" as="geometry">
+            <mxPoint x="19.519999999999996" y="13.21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-12" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WlESTi3X5ESpJLaA8oOM-5" target="WlESTi3X5ESpJLaA8oOM-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-16" value="Нет телефона в сообщении" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WlESTi3X5ESpJLaA8oOM-12">
+          <mxGeometry x="0.1885" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-15" style="edgeStyle=entityRelationEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WlESTi3X5ESpJLaA8oOM-5" target="WlESTi3X5ESpJLaA8oOM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-5" value="Выделение из сообщения номера телефона " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WlESTi3X5ESpJLaA8oOM-11" value="Прочерк в графе &quot;Рейтинг клиента&quot;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="725" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
